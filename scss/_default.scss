@@ -19,6 +19,15 @@ body {
   margin: auto;
 }
 
+button,
+a {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
 button {
   height: 100%;
 }
