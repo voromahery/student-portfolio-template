@@ -1,11 +1,5 @@
 @import "./variable.scss";
 
-.section__about {
-  background: #ffffff;
-  border-radius: 8px;
-  padding: calc(5px);
-}
-
 .name {
   font-weight: 600;
   font-size: 20px;
@@ -108,7 +102,7 @@
 
   .contact--email,
   .contact--phone {
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
   }
 
   .contact--email img,

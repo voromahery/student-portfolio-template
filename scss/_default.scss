@@ -7,6 +7,14 @@ body {
   padding-top: calc(77px / 4);
 }
 
+.card {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 5px;
+  margin-top: calc(42px / 4);
+  margin-bottom: calc(42px / 4);
+}
+
 body,
 figure {
   margin: auto;
@@ -26,13 +34,36 @@ img {
 }
 
 @media (min-width: $mobile-size) {
-    body {
-        padding-top: calc(77px / 2);
-    }
+  body {
+    padding-top: calc(77px / 2);
+    padding-right: calc(197px / 8);
+    padding-left: calc(197px / 8);
+  }
+
+  .card {
+    border-radius: 12px;
+    padding: 22px;
+    margin-top: calc(42px / 2);
+    margin-bottom: calc(42px / 2);
+  }
 }
 
 @media (min-width: $medium-size) {
-    body {
-        padding-top: 77px;
-    }
+  body {
+    padding-top: 77px;
+    padding-right: calc(197px / 4);
+    padding-left: calc(197px / 4);
+  }
+
+  .card {
+    margin-top: calc(42px);
+    margin-bottom: calc(42px);
+  }
+}
+
+@media (min-width: 1200) {
+  body {
+    padding-right: 197px;
+    padding-left: 197px;
+  }
 }

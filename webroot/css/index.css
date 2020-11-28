@@ -4,6 +4,13 @@ body {
   background-color: #f2f2f2;
   padding-top: calc(77px / 4); }
 
+.card {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 5px;
+  margin-top: calc(42px / 4);
+  margin-bottom: calc(42px / 4); }
+
 body,
 figure {
   margin: auto; }
@@ -20,16 +27,28 @@ img {
 
 @media (min-width: 300px) {
   body {
-    padding-top: calc(77px / 2); } }
+    padding-top: calc(77px / 2);
+    padding-right: calc(197px / 8);
+    padding-left: calc(197px / 8); }
+  .card {
+    border-radius: 12px;
+    padding: 22px;
+    margin-top: calc(42px / 2);
+    margin-bottom: calc(42px / 2); } }
 
 @media (min-width: 600px) {
   body {
-    padding-top: 77px; } }
+    padding-top: 77px;
+    padding-right: calc(197px / 4);
+    padding-left: calc(197px / 4); }
+  .card {
+    margin-top: calc(42px);
+    margin-bottom: calc(42px); } }
 
-.section__about {
-  background: #ffffff;
-  border-radius: 8px;
-  padding: calc(5px); }
+@media (min-width: 1200) {
+  body {
+    padding-right: 197px;
+    padding-left: 197px; } }
 
 .name {
   font-weight: 600;
@@ -109,7 +128,7 @@ img {
     margin-top: 10px; }
   .contact--email,
   .contact--phone {
-    flex-wrap: nowrap; }
+    flex-wrap: wrap; }
   .contact--email img,
   .contact--phone img {
     margin-right: 18px;
