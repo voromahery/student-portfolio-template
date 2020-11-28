@@ -15,9 +15,17 @@ body {
   margin-bottom: calc(42px / 4);
 }
 
-body,
-figure {
+body {
   margin: auto;
+}
+
+progress {
+  width: 100%;
+  max-width: 100%;
+}
+
+figure {
+  margin: 0;
 }
 
 ul {

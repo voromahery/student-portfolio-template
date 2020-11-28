@@ -2,7 +2,7 @@
 
 .name {
   font-weight: 600;
-  font-size: 20px;
+  font-size: 21px;
   line-height: 29px;
   margin: 0;
 }
@@ -25,7 +25,7 @@
 .activity,
 .contact,
 .description {
-  font-size: 14px;
+  font-size: 15px;
   line-height: 22px;
 }
 
@@ -50,6 +50,7 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  overflow-wrap: anywhere;
 }
 
 .contact--email img,
@@ -59,10 +60,10 @@
 }
 
 .about__me {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 @media (min-width: $mobile-size) {
@@ -86,18 +87,23 @@
   }
 
   .contact {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: calc(30px / 2);
+    margin-bottom: calc(30px / 2);
+  }
+
+  .contact--email,
+  .contact--phone {
+    overflow-wrap: normal;
   }
 
   .contact--email,
   .name {
-    margin-bottom: 10px;
+    margin-bottom: calc(10px / 2);
   }
 
   .contact--phone,
   .activity {
-    margin-top: 10px;
+    margin-top: calc(10px / 2);
   }
 
   .contact--email,
@@ -110,12 +116,15 @@
     margin-right: 18px;
     max-width: 20px;
   }
+
+  .about__me {
+    gap: 20px;
+  }
 }
 
 @media (min-width: $medium-size) {
   .section__about {
     gap: 22px;
-    max-width: fit-content;
     margin: auto;
   }
 
@@ -131,10 +140,14 @@
 
   .about__me {
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
   }
 
   .contact {
     margin: 0;
+  }
+
+  .identity {
+    margin-top: 0;
   }
 }

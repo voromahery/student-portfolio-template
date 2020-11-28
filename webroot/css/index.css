@@ -11,9 +11,15 @@ body {
   margin-top: calc(42px / 4);
   margin-bottom: calc(42px / 4); }
 
-body,
-figure {
+body {
   margin: auto; }
+
+progress {
+  width: 100%;
+  max-width: 100%; }
+
+figure {
+  margin: 0; }
 
 ul {
   list-style: none;
@@ -52,7 +58,7 @@ img {
 
 .name {
   font-weight: 600;
-  font-size: 20px;
+  font-size: 21px;
   line-height: 29px;
   margin: 0; }
 
@@ -72,7 +78,7 @@ img {
 .activity,
 .contact,
 .description {
-  font-size: 14px;
+  font-size: 15px;
   line-height: 22px; }
 
 .identity {
@@ -92,7 +98,8 @@ img {
 .contact--phone {
   display: flex;
   flex-wrap: wrap;
-  align-items: center; }
+  align-items: center;
+  overflow-wrap: anywhere; }
 
 .contact--email img,
 .contact--phone img {
@@ -118,26 +125,30 @@ img {
   .description {
     font-size: 18px; }
   .contact {
-    margin-top: 30px;
-    margin-bottom: 30px; }
+    margin-top: calc(30px / 2);
+    margin-bottom: calc(30px / 2); }
+  .contact--email,
+  .contact--phone {
+    overflow-wrap: normal; }
   .contact--email,
   .name {
-    margin-bottom: 10px; }
+    margin-bottom: calc(10px / 2); }
   .contact--phone,
   .activity {
-    margin-top: 10px; }
+    margin-top: calc(10px / 2); }
   .contact--email,
   .contact--phone {
     flex-wrap: wrap; }
   .contact--email img,
   .contact--phone img {
     margin-right: 18px;
-    max-width: 20px; } }
+    max-width: 20px; }
+  .about__me {
+    gap: 20px; } }
 
 @media (min-width: 600px) {
   .section__about {
     gap: 22px;
-    max-width: fit-content;
     margin: auto; }
   .image {
     max-width: 200px; }
@@ -147,6 +158,84 @@ img {
     flex-direction: row; }
   .about__me {
     justify-content: space-between;
-    align-items: center; }
+    align-items: flex-start; }
   .contact {
-    margin: 0; } }
+    margin: 0; }
+  .identity {
+    margin-top: 0; } }
+
+.section__skills--heading,
+.skills__list--item {
+  color: #4f4f4f; }
+
+.section__skills--heading {
+  font-size: 15px;
+  line-height: 22px;
+  text-transform: uppercase; }
+
+.skills__list--item {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px; }
+
+.skills__list--item div {
+  display: grid;
+  margin-top: calc(16px / 2);
+  margin-bottom: calc(16px / 2); }
+
+@media (min-width: 300px) {
+  .section__skills--heading {
+    font-size: 18px; }
+  .skills__list--item div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 16px;
+    margin-bottom: 16px; }
+  .skills__list--item {
+    font-size: 16px; } }
+
+@media (min-width: 600px) {
+  .skills__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10%; } }
+
+.section__hobbies--heading {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  color: #4f4f4f; }
+
+.hobbies__activity {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  color: #333333; }
+
+.hobbies__description {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  color: #828282; }
+
+.hobbies__card {
+  margin-top: calc(36px / 2);
+  margin-bottom: calc(36px / 2); }
+
+.hobbies__images {
+  border-radius: 8px; }
+
+@media (min-width: 300px) {
+  .section__hobbies--heading {
+    font-size: 24px; }
+  .hobbies__activity {
+    font-size: 18px; }
+  .hobbies__description {
+    font-size: 16px; }
+  .hobbies__images {
+    border-radius: 12px; }
+  .hobbies__card {
+    margin-top: 36px;
+    margin-bottom: 36px; } }
