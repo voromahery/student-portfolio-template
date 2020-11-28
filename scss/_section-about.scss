@@ -35,6 +35,11 @@
   line-height: 22px;
 }
 
+.identity {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
 .image {
   border-radius: 8px;
 }
@@ -46,13 +51,25 @@
   margin-bottom: calc(30px / 2);
 }
 
-// .contact--email {
+.contact--email,
+.contact--phone {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
 
-// }
+.contact--email img,
+.contact--phone img {
+  margin-right: 14px;
+  max-width: 14px;
+}
 
-// .contact--phone {
-
-// }
+.about__me {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 
 @media (min-width: $mobile-size) {
   .section__about {
@@ -88,6 +105,17 @@
   .activity {
     margin-top: 10px;
   }
+
+  .contact--email,
+  .contact--phone {
+    flex-wrap: nowrap;
+  }
+
+  .contact--email img,
+  .contact--phone img {
+    margin-right: 18px;
+    max-width: 20px;
+  }
 }
 
 @media (min-width: $medium-size) {
@@ -113,6 +141,6 @@
   }
 
   .contact {
-      margin: 0;
+    margin: 0;
   }
 }
