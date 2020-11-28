@@ -1,0 +1,38 @@
+@import "./variable.scss";
+
+body {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  max-width: 1440px;
+  background-color: #f2f2f2;
+  padding-top: calc(77px / 4);
+}
+
+body,
+figure {
+  margin: auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.masthead {
+  display: none;
+}
+
+@media (min-width: $mobile-size) {
+    body {
+        padding-top: calc(77px / 2);
+    }
+}
+
+@media (min-width: $medium-size) {
+    body {
+        padding-top: 77px;
+    }
+}

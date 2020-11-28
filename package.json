@@ -1,0 +1,25 @@
+{
+  "name": "student-portfolio-template",
+  "version": "1.0.0",
+  "description": "Challenge: Create all the elements in the given designs and then create a portfolio with your own content. You can create your own layout. Don’t look at the existing solution. Fulfill user stories below:",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "css": "node-sass scss -o webroot/css",
+    "css:watch": "npm run css && node-sass scss -w -o webroot/css",
+    "start": "parcel ./webroot/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voromahery/student-portfolio-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/voromahery/student-portfolio-template/issues"
+  },
+  "homepage": "https://github.com/voromahery/student-portfolio-template#readme"
+}
