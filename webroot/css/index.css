@@ -52,7 +52,9 @@ img {
     border-radius: 12px;
     padding: 22px;
     margin-top: calc(42px / 2);
-    margin-bottom: calc(42px / 2); } }
+    margin-bottom: calc(42px / 2); }
+  progress {
+    max-width: 65%; } }
 
 @media (min-width: 650px) {
   body {

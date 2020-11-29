@@ -85,6 +85,7 @@ const worksContainer = document.querySelector(".works");
 const react = document.querySelector(".react");
 const css = document.querySelector(".responsive");
 const javascript = document.querySelector(".javascript");
+const all = document.querySelector(".all");
 const number = document.querySelector(".number");
 
 number.textContent = worksData.length;
@@ -126,28 +127,36 @@ function responsiveSite(e) {
   const responsiveButton = e.target.matches(".responsive");
   const reactButton = e.target.matches(".react");
   const javascriptButton = e.target.matches(".javascript");
+  const allButton = e.target.matches(".all");
 
   let works = [];
 
   if (responsiveButton) {
     works = worksData.filter((work) => work.skill === "CSS");
+    all.classList.remove("active");
     javascript.classList.remove("active");
     react.classList.remove("active");
     css.classList.add("active");
-  }
-
-  if (reactButton) {
+  } else if (reactButton) {
     works = worksData.filter((work) => work.skill === "react");
+    all.classList.remove("active");
     javascript.classList.remove("active");
     css.classList.remove("active");
     react.classList.add("active");
-  }
-
-  if (javascriptButton) {
+  } else if (javascriptButton) {
     works = worksData.filter((work) => work.skill === "javascript");
+    all.classList.remove("active");
     css.classList.remove("active");
     react.classList.remove("active");
     javascript.classList.add("active");
+  } else if (allButton) {
+    css.classList.remove("active");
+    react.classList.remove("active");
+    javascript.classList.remove("active");
+    all.classList.add("active");
+    works = worksData;
+  } else {
+    return;
   }
 
   number.textContent = works.length;
