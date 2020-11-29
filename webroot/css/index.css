@@ -9,7 +9,8 @@ body {
   border-radius: 8px;
   padding: 5px;
   margin-top: calc(42px / 4);
-  margin-bottom: calc(42px / 4); }
+  margin-bottom: calc(42px / 4);
+  box-shadow: 1px 1px 7px #000000; }
 
 body {
   margin: auto; }
@@ -369,8 +370,8 @@ form {
 
 @media (min-width: 300px) {
   form {
-    margin-top: 0;
-    margin-bottom: 0; }
+    margin-top: 10px;
+    margin-bottom: 10px; }
   .project__image {
     border-radius: 12px; }
   .project__skills {
@@ -383,10 +384,10 @@ form {
     margin-right: 8px; }
   .project__link button {
     border-radius: 12px;
-    padding-bottom: 13px;
-    padding-top: 13px;
-    padding-right: 38px;
-    padding-left: 38px; }
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 22px;
+    padding-left: 22px; }
   .demo {
     margin-right: 11px; }
   .project__description,
@@ -412,13 +413,20 @@ form {
     grid-column-gap: 30px; } }
 
 footer {
-  border-top: 1px solid #BDBDBD; }
+  border-top: 1px solid #bdbdbd;
+  text-align: center;
+  max-width: 402px;
+  margin: auto; }
 
 footer p {
   align-items: center; }
 
 footer a {
   font-weight: 600;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 17px;
-  color: #A9A9A9; }
+  color: #a9a9a9; }
+
+@media (min-width: 300px) {
+  footer a {
+    font-size: 14px; } }

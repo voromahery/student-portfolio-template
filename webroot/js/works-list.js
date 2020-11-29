@@ -8,6 +8,7 @@ const worksData = [
       "https://www.figma.com/file/t3fxY5HiMQuogI6cmbPg7c/Sports-App-homepage-Responsive-Revised-Copy",
     link: "https://voromahery.github.io/front-end-assessment/",
     date: "dd",
+    skill: "CSS"
   },
   {
     title: "Photograf",
@@ -18,6 +19,7 @@ const worksData = [
       "https://www.figma.com/file/QDZhke3UJVjXjNwFKqsWDR/Laaqiq-1-Portfolio-detail-Responsive-Copy",
     link: "https://voromahery.github.io/front-end-finals/",
     date: "dd",
+    skill: "CSS"
   },
   {
     title: "My team page",
@@ -28,6 +30,7 @@ const worksData = [
       "https://www.figma.com/file/F8d1qJsorEdY47N74HLxQ4/team-page-challenge",
     link: "https://my-team-page-daniel.netlify.app/",
     date: "dd",
+    skill: "CSS"
   },
   {
     title: "Movie app",
@@ -35,6 +38,7 @@ const worksData = [
     screenshot: "./images/movie-app.png",
     link: "https://movie-app-daniel.netlify.app/",
     date: "dd",
+    skill: "React"
   },
   {
     title: "Quote generator",
@@ -43,6 +47,7 @@ const worksData = [
     figma: "https://www.figma.com/file/FFxqnf1cEDiHhvFpN6u4hV/quote",
     link: "https://quote-generator-daniel.netlify.app/",
     date: "dd",
+    skill: "React"
   },
   {
     title: "Country quiz",
@@ -52,6 +57,7 @@ const worksData = [
     figma: "https://www.figma.com/file/Gw0ZNBbYN8asqFlZWy3jG1",
     link: "https://country-quiz-daniel.netlify.app/",
     date: "12/11/2020",
+    skill: "React"
   },
   {
     title: "Edie home page",
@@ -61,6 +67,7 @@ const worksData = [
       "https://www.figma.com/file/ahnGupP4JjTdVJDTRfMRF2/edie-homepage?node-id=0%3A1",
     link: "https://edie-homepage-daniel.netlify.app/",
     date: "19/11/2020",
+    skill: "CSS"
   },
   {
     title: "Hit parade",
@@ -70,6 +77,7 @@ const worksData = [
       "https://www.figma.com/file/Nab1pgPVU2dciFofy4AOEe/Hit-Parade?node-id=0%3A1",
     link: "https://hit-parade-daniel.netlify.app/",
     date: "22/11/2020",
+    skill: "React"
   },
 ];
 
