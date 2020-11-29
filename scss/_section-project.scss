@@ -16,6 +16,8 @@
   transition: all ease-in 0.2s;
 }
 
+.active,
+.active:hover,
 .project__skill:active {
   color: #ffffff;
   background: #6aa2ef;

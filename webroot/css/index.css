@@ -23,7 +23,8 @@ a {
   text-decoration: none; }
 
 button {
-  height: 100%; }
+  height: 100%;
+  outline: none; }
 
 progress {
   width: 100%;
@@ -287,6 +288,8 @@ img {
   color: #6aa2ef;
   transition: all ease-in 0.2s; }
 
+.active,
+.active:hover,
 .project__skill:active {
   color: #ffffff;
   background: #6aa2ef;
