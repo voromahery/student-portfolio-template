@@ -84,7 +84,7 @@ function displayWorks() {
       (work) => `
   <article class="card">
   <figure>
-    <img src=${work.screenshot} alt="${work.title}" />
+    <img src=${work.screenshot} class="project__image" alt="${work.title}" />
     <ul class="project__skills">
       <li class="project__list--item">#HTML</li>
       <li class="project__list--item">#CSS</li>
