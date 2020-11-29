@@ -93,7 +93,7 @@ function displayWorks() {
   </figure>
   <div class="about__the--project">
     <h3 class="project__title">${work.title}</h3>
-    <p class=""project__description>${work.description}
+    <p class="project__description">${work.description}
     </p>
   </div>
   <div class="project__link">
