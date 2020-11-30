@@ -7,6 +7,7 @@ const worksData = [
     figma:
       "https://www.figma.com/file/t3fxY5HiMQuogI6cmbPg7c/Sports-App-homepage-Responsive-Revised-Copy",
     link: "https://voromahery.github.io/front-end-assessment/",
+    code: "https://github.com/voromahery/front-end-assessment",
     date: "dd",
     skill: "CSS",
   },
@@ -18,6 +19,7 @@ const worksData = [
     figma:
       "https://www.figma.com/file/QDZhke3UJVjXjNwFKqsWDR/Laaqiq-1-Portfolio-detail-Responsive-Copy",
     link: "https://voromahery.github.io/front-end-finals/",
+    code: "https://github.com/voromahery/front-end-finals",
     date: "dd",
     skill: "CSS",
   },
@@ -29,6 +31,7 @@ const worksData = [
     figma:
       "https://www.figma.com/file/F8d1qJsorEdY47N74HLxQ4/team-page-challenge",
     link: "https://my-team-page-daniel.netlify.app/",
+    code: "https://github.com/voromahery/my-team-page",
     date: "dd",
     skill: "CSS",
   },
@@ -37,6 +40,7 @@ const worksData = [
     description: "This app is built in order to get or to check recent movies",
     screenshot: "./images/movie-app.png",
     link: "https://movie-app-daniel.netlify.app/",
+    code: "https://github.com/voromahery/movie-app",
     date: "dd",
     skill: "react",
   },
@@ -46,6 +50,7 @@ const worksData = [
     screenshot: "./images/quote-generator.png",
     figma: "https://www.figma.com/file/FFxqnf1cEDiHhvFpN6u4hV/quote",
     link: "https://quote-generator-daniel.netlify.app/",
+    code: "https://github.com/voromahery/react-random-quote-generator",
     date: "dd",
     skill: "react",
   },
@@ -56,6 +61,7 @@ const worksData = [
     screenshot: "./images/country-quiz.png",
     figma: "https://www.figma.com/file/Gw0ZNBbYN8asqFlZWy3jG1",
     link: "https://country-quiz-daniel.netlify.app/",
+    code: "https://github.com/voromahery/country-quiz",
     date: "12/11/2020",
     skill: "react",
   },
@@ -66,6 +72,7 @@ const worksData = [
     figma:
       "https://www.figma.com/file/ahnGupP4JjTdVJDTRfMRF2/edie-homepage?node-id=0%3A1",
     link: "https://edie-homepage-daniel.netlify.app/",
+    code: "https://github.com/voromahery/edie-homepage",
     date: "19/11/2020",
     skill: "CSS",
   },
@@ -76,6 +83,7 @@ const worksData = [
     figma:
       "https://www.figma.com/file/Nab1pgPVU2dciFofy4AOEe/Hit-Parade?node-id=0%3A1",
     link: "https://hit-parade-daniel.netlify.app/",
+    code: "https://github.com/voromahery/hit-parade-react",
     date: "22/11/2020",
     skill: "react",
   },
@@ -112,7 +120,7 @@ function displayWorks() {
     <form action="${work.link}">
     <button class="demo">Demo</button>
     </form>
-    <form action="">
+    <form action="${work.code}">
     <button class="code">Code</button>
     </form>
   </div>
@@ -181,7 +189,7 @@ function responsiveSite(e) {
     <form action="${work.link}">
     <button class="demo">Demo</button>
     </form>
-    <form action="">
+    <form action="${work.code}">
     <button class="code">Code</button>
     </form>
   </div>
