@@ -38,7 +38,13 @@ ul {
   padding: 0; }
 
 img {
-  max-width: 100%; }
+  max-width: 100%;
+  transition: all ease-in .3s; }
+
+img:hover {
+  transform: rotate(-6deg);
+  box-shadow: 1px 3px 10px black;
+  transition: all ease-in .3s; }
 
 .masthead {
   display: none; }
