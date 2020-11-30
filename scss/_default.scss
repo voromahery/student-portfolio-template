@@ -51,10 +51,11 @@ ul {
 img {
   max-width: 100%;
   transition: all ease-in .3s;
+  cursor: pointer;
 }
 
 img:hover {
-  transform: rotate(-6deg); 
+  transform: rotate(5deg); 
   box-shadow: 1px 3px 10px black;
   transition: all ease-in .3s;
 }

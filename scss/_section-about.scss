@@ -57,6 +57,12 @@
 .contact--phone img {
   margin-right: 14px;
   max-width: 14px;
+  box-shadow: none;
+}
+
+.contact--email img:hover,
+.contact--phone img:hover {
+  transform: scale(1.2);
 }
 
 .about__me {
@@ -115,6 +121,11 @@
   .contact--phone img {
     margin-right: 18px;
     max-width: 20px;
+  }
+
+  .contact--email img:hover,
+  .contact--phone img:hover {
+    transform: scale(1.2);
   }
 
   .about__me {

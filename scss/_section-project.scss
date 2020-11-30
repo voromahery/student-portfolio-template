@@ -30,6 +30,10 @@
   margin-top: calc(10px / 2);
 }
 
+.project__image:hover {
+  transform: rotate(1deg);
+}
+
 @media (min-width: $mobile-size) {
   .project__skill {
     border-radius: 12px;
