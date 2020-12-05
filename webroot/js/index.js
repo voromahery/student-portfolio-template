@@ -87,6 +87,15 @@ const worksData = [
     date: "22/11/2020",
     skill: "react",
   },
+  {
+    title: "OnjaBook",
+    description: "Simple clone of facebook in order to learn about reducer in react.",
+    screenshot: "./images/onjabook.png",
+    figma:"",
+    link: "https://onjabook-daniel.netlify.app/",
+    date: "05/12/2020",
+    skill: "React"
+  }
 ];
 
 const worksContainer = document.querySelector(".works");
