@@ -90,7 +90,7 @@ const worksData = [
   {
     title: "OnjaBook",
     description: "Simple clone of facebook in order to learn about reducer in react.",
-    screenshot: "./images/onjabook.png",
+    screenshot: "./images/onjabook.webp",
     figma:"",
     link: "https://onjabook-daniel.netlify.app/",
     date: "05/12/2020",
