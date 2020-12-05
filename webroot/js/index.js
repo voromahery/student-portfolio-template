@@ -57,7 +57,7 @@ const worksData = [
   {
     title: "Country quiz",
     description:
-      "The first game I have built which is used to learn the capital of a city and their flags.",
+      "The first game I have built which is used to learn the capital of a city and their flags, built with react.",
     screenshot: "./images/country-quiz.webp",
     figma: "https://www.figma.com/file/Gw0ZNBbYN8asqFlZWy3jG1",
     link: "https://country-quiz-daniel.netlify.app/",
@@ -67,7 +67,7 @@ const worksData = [
   },
   {
     title: "Edie home page",
-    description: "",
+    description: "A responsive project using Sass",
     screenshot: "./images/edie.webp",
     figma:
       "https://www.figma.com/file/ahnGupP4JjTdVJDTRfMRF2/edie-homepage?node-id=0%3A1",
@@ -78,7 +78,7 @@ const worksData = [
   },
   {
     title: "Hit parade",
-    description: "React project for recording musics",
+    description: "React project for recording musics, in this project I learn how to use React Router",
     screenshot: "./images/hit-parade.webp",
     figma:
       "https://www.figma.com/file/Nab1pgPVU2dciFofy4AOEe/Hit-Parade?node-id=0%3A1",
