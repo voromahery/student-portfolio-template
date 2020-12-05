@@ -94,7 +94,7 @@ const worksData = [
     figma:"",
     link: "https://onjabook-daniel.netlify.app/",
     date: "05/12/2020",
-    skill: "React"
+    skill: "react"
   }
 ];
 
