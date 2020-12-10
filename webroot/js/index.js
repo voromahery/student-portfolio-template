@@ -26,7 +26,7 @@ const worksData = [
   {
     title: "My team page",
     description:
-      "This website is suitable for a photographer who want to wants to display his or her works online",
+      "This website is suitable for a photographer who wants to display his or her works online",
     screenshot: "./images/creative-crew.webp",
     figma:
       "https://www.figma.com/file/F8d1qJsorEdY47N74HLxQ4/team-page-challenge",
